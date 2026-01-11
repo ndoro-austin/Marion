@@ -594,11 +594,11 @@ body {
   }
 
   .featured-unit::before {
-    margin: 0 auto 20px auto;
+    display: none;
   }
 
   .featured-unit::after {
-    margin: 20px auto 0 auto;
+    display: none;
   }
 
   .featured-unit-wrapper {
