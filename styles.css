@@ -182,6 +182,11 @@ body {
   font-family: "inter", sans-serif;
 }
 
+.italic-text {
+  font-style: italic;
+  font-family: "inter", sans-serif;
+}
+
 .kaisa-text {
   font-family: Bachelorette PERSONAL USE ONLY;
   font-style: italic;
@@ -202,6 +207,19 @@ body {
 
 .menu-toggle {
   cursor: pointer;
+  padding: 8px 18px;
+  border: 1px solid var(--text-color);
+
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.menu-toggle:hover {
+  background-color: var(--text-color);
+  color: var(--primary-color);
 }
 
 .dropdown-content {
@@ -635,6 +653,11 @@ body {
 
   .nav-right {
     margin-right: 0;
+  }
+
+  .menu-toggle {
+    padding: 6px 12px;
+    font-size: 11px;
   }
 
   .hero {
